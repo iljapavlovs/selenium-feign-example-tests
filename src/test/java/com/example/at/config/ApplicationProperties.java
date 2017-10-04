@@ -58,7 +58,7 @@ public class ApplicationProperties {
             put("local", new Properties() {
                 {
                     setProperty(ApplicationProperty.APP_URL.name, "http://localhost:1337/#");
-                    setProperty(ApplicationProperty.SERVICE_URL.name, "http://lhrm-dev-eu.azurewebsites.net/rest");
+                    setProperty(ApplicationProperty.SERVICE_URL.name, "http:///localhost:1337/rest");
                 }
             });
             put("dev-ci", new Properties() {
